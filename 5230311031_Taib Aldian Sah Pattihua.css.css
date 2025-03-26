@@ -1,0 +1,208 @@
+/* ===== Global Styles ===== */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* ===== Header & Navigation ===== */
+header {
+    background: #ffffff;
+    color: #333;
+    padding: 30px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    border-bottom: 4px solid #07073a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container {
+    flex-shrink: 0;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+}
+
+nav {
+    flex-grow: 1;
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background: #210671;
+    padding: 15px 0;
+    border-bottom: 4px solid  #210671;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #111111;
+}
+
+
+
+section {
+    border: 5px solid black; /* Bingkai hitam */
+    border-radius: 15px; /* Sudut melengkung */
+    padding: 20px; /* Jarak dari konten ke bingkai */
+    margin: 20px; /* Jarak dari elemen lain */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Efek bayangan */
+}
+
+
+.download-container {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.download-button {
+    display: inline-block;
+    background-color: #002855; /* Warna biru gelap */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.download-button:hover {
+    background-color: #001b3d;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.download-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ===== Section Styling ===== */
+section {
+    background: #fff;
+    margin: 30px auto;
+    padding: 25px;
+    width: 80%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* ===== Image Styling ===== */
+img {
+    display: block;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== Lists ===== */
+ul, ol {
+    padding: 0 25px;
+    font-size: 1.1em;
+}
+
+/* ===== Table Styling ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #adb5c4;
+    color: #141313;
+    font-weight: bold;
+}
+
+/* ===== Form Styling ===== */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #0b0214;
+    outline: none;
+}
+
+/* ===== Footer ===== */
+footer {
+    background: #210671;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+    font-size: 1.1em;
+}
+
+/* ===== Centering Text ===== */
+.center-text {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 1.2em;
+}
